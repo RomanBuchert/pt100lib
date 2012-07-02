@@ -1,0 +1,126 @@
+.TH "/home/rb/workspace/pt100lib/private/pt100_table.h" 3 "Mon Jul 2 2012" "Pt100Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+/home/rb/workspace/pt100lib/private/pt100_table.h \- 
+.PP
+Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Makrodefinitionen"
+
+.in +1c
+.ti -1c
+.RI "#define \fBR_MIN\fP   18493L"
+.br
+.RI "\fIMinimaler Widerstandswert in mOhm. \fP"
+.ti -1c
+.RI "#define \fBR_MAX\fP   390263L"
+.br
+.RI "\fIMaximaler Widerstandswert in mOhm. \fP"
+.ti -1c
+.RI "#define \fBT_MIN\fP   -200000L"
+.br
+.RI "\fIMinimale Temperatur der Widerstandstabelle in m°C. \fP"
+.ti -1c
+.RI "#define \fBT_MAX\fP   850000L"
+.br
+.RI "\fIMaximale Temperatur der Widerstandstabelle in m°C. \fP"
+.ti -1c
+.RI "#define \fBT_DIFF\fP   1000L"
+.br
+.RI "\fITemperaturintervall der Widerstandstabelle in mK. \fP"
+.ti -1c
+.RI "#define \fBINDEX_MAX\fP   1050"
+.br
+.RI "\fIMaximaler Index der PT100-Tabelle. \fP"
+.ti -1c
+.RI "#define \fBINDEX_ZERO\fP   200"
+.br
+.RI "\fIIndex für 0°C in der PT100-Tabelle. \fP"
+.in -1c
+.SS "Variablen"
+
+.in +1c
+.ti -1c
+.RI "unsigned long const \fBpt100_table\fP []"
+.br
+.RI "\fITabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten. \fP"
+.in -1c
+.SH "Ausführliche Beschreibung"
+.PP 
+Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten. 
+
+\fBAutor:\fP
+.RS 4
+Roman Buchert (roman.buchert@googlemail.com) 
+.RE
+.PP
+
+.PP
+Definiert in Datei \fBpt100_table.h\fP.
+.SH "Makro-Dokumentation"
+.PP 
+.SS "#define INDEX_MAX   1050"
+.PP
+Maximaler Index der PT100-Tabelle. 
+.PP
+Definiert in Zeile 37 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_R2T() und pt100_T2R().
+.SS "#define INDEX_ZERO   200"
+.PP
+Index für 0°C in der PT100-Tabelle. 
+.PP
+Definiert in Zeile 41 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_R2T().
+.SS "#define R_MAX   390263L"
+.PP
+Maximaler Widerstandswert in mOhm. 
+.PP
+Definiert in Zeile 21 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_R2T().
+.SS "#define R_MIN   18493L"
+.PP
+Minimaler Widerstandswert in mOhm. 
+.PP
+Definiert in Zeile 17 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_R2T().
+.SS "#define T_DIFF   1000L"
+.PP
+Temperaturintervall der Widerstandstabelle in mK. 
+.PP
+Definiert in Zeile 33 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_R2T() und pt100_T2R().
+.SS "#define T_MAX   850000L"
+.PP
+Maximale Temperatur der Widerstandstabelle in m°C. 
+.PP
+Definiert in Zeile 29 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_T2R().
+.SS "#define T_MIN   -200000L"
+.PP
+Minimale Temperatur der Widerstandstabelle in m°C. 
+.PP
+Definiert in Zeile 25 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_T2R().
+.SH "Variablen-Dokumentation"
+.PP 
+.SS "unsigned long const \fBpt100_table\fP[]"
+.PP
+Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten. Die Werte sind in mOhm angegeben 
+.PP
+Definiert in Zeile 51 der Datei pt100_table.h.
+.PP
+Wird benutzt von pt100_R2T() und pt100_T2R().
+.SH "Autor"
+.PP 
+Automatisch erzeugt von Doxygen für Pt100Library aus dem Quellcode.

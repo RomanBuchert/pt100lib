@@ -1,0 +1,135 @@
+\hypertarget{pt100lib_8c}{
+\section{/home/rb/workspace/pt100lib/src/pt100lib.c-\/Dateireferenz}
+\label{pt100lib_8c}\index{/home/rb/workspace/pt100lib/src/pt100lib.c@{/home/rb/workspace/pt100lib/src/pt100lib.c}}
+}
+
+
+Bibiliothek mit PT100 Funktionen.  
+
+
+{\ttfamily \#include $<$pt100lib.h$>$}\par
+{\ttfamily \#include $<$pt100\_\-table.h$>$}\par
+Include-\/Abhängigkeitsdiagramm für pt100lib.c:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{pt100lib_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Funktionen}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{pt100__types_8h_ab4a3e130664d6751b5fd947f9b7382e0}{\_\-\_\-s32} \hyperlink{pt100lib_8c_a49de64016a5145d95be6830e2240d6bb}{pt100\_\-R2T} (\hyperlink{pt100__types_8h_a13a2835755bfba96b1790ff492741141}{\_\-\_\-u32} u32Widerstand)
+\begin{DoxyCompactList}\small\item\em Wandelt einen PT100-\/Widerstandswert in eine Temperatur um. \item\end{DoxyCompactList}\item 
+\hyperlink{pt100__types_8h_a13a2835755bfba96b1790ff492741141}{\_\-\_\-u32} \hyperlink{pt100lib_8c_a9346ef20f269515f671f6491077e5c70}{pt100\_\-T2R} (\hyperlink{pt100__types_8h_ab4a3e130664d6751b5fd947f9b7382e0}{\_\-\_\-s32} s32Temperatur)
+\begin{DoxyCompactList}\small\item\em Wandelt eine Temperatur in einen Pt100 Widerstandswert. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Ausführliche Beschreibung}
+Bibiliothek mit PT100 Funktionen. \begin{DoxyAuthor}{Autor}
+Roman Buchert (\href{mailto:roman.buchert@googlemail.com}{\tt roman.buchert@googlemail.com}) 
+\end{DoxyAuthor}
+
+
+Definiert in Datei \hyperlink{pt100lib_8c_source}{pt100lib.c}.
+
+
+
+\subsection{Dokumentation der Funktionen}
+\hypertarget{pt100lib_8c_a49de64016a5145d95be6830e2240d6bb}{
+\index{pt100lib.c@{pt100lib.c}!pt100\_\-R2T@{pt100\_\-R2T}}
+\index{pt100\_\-R2T@{pt100\_\-R2T}!pt100lib.c@{pt100lib.c}}
+\subsubsection[{pt100\_\-R2T}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \_\-\_\-s32} pt100\_\-R2T (
+\begin{DoxyParamCaption}
+\item[{{\bf \_\-\_\-u32}}]{u32Widerstand}
+\end{DoxyParamCaption}
+)}}
+\label{pt100lib_8c_a49de64016a5145d95be6830e2240d6bb}
+
+
+Wandelt einen PT100-\/Widerstandswert in eine Temperatur um. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em u32Widerstand} & Widerstand in mOhm \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Rückgabe}
+Temperatur in °mC 
+\end{DoxyReturn}
+
+
+Temperatur berechnen \[ T = T1 + \frac{(T2-T1)*(R-R1)}{(R2-R1)} \] (T2 -\/T1) x (R -\/ R1) \par
+ T = T1 + -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/ \par
+ (R2 -\/ R1) \par
+
+
+T : berechnete Temperatur \par
+ T1 : Temperaturtabellenwert unter gemessenem Widerstand \par
+ T2 : Temperaturtabellenwert über gemessenem Widerstand \par
+
+
+R : gemessener Widerstand \par
+ R1 : Widerstandstabellenwert unter gemessenem Widerstand \par
+ R2 : Widerstandstabellenwert über gemessenem Widerstand \par
+
+
+(Quelle: Elektrische Temperaturmessung (M. Nau / jumo))
+
+
+
+Definiert in Zeile 23 der Datei pt100lib.c.
+
+
+
+Benutzt INDEX\_\-MAX, INDEX\_\-ZERO, pt100\_\-table, R\_\-MAX, R\_\-MIN und T\_\-DIFF.
+
+\hypertarget{pt100lib_8c_a9346ef20f269515f671f6491077e5c70}{
+\index{pt100lib.c@{pt100lib.c}!pt100\_\-T2R@{pt100\_\-T2R}}
+\index{pt100\_\-T2R@{pt100\_\-T2R}!pt100lib.c@{pt100lib.c}}
+\subsubsection[{pt100\_\-T2R}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \_\-\_\-u32} pt100\_\-T2R (
+\begin{DoxyParamCaption}
+\item[{{\bf \_\-\_\-s32}}]{s32Temperatur}
+\end{DoxyParamCaption}
+)}}
+\label{pt100lib_8c_a9346ef20f269515f671f6491077e5c70}
+
+
+Wandelt eine Temperatur in einen Pt100 Widerstandswert. 
+
+
+\begin{DoxyParams}{Parameter}
+{\em s32Temperatur} & Temperatur in m°C \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Rückgabe}
+Widerstand in mOhm 
+\end{DoxyReturn}
+
+
+Widerstand berechnen \[ R = R1 + \frac{(R2-R1)*(T-T1)}{(T2-T1)} \] (R2 -\/R1) x (T -\/ T1) \par
+ R = R1 + -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/ \par
+ (T2 -\/ T1) \par
+
+
+T : berechnete Temperatur \par
+ T1 : Temperaturtabellenwert unter gemessenem Widerstand \par
+ T2 : Temperaturtabellenwert über gemessenem Widerstand \par
+
+
+R : gemessener Widerstand \par
+ R1 : Widerstandstabellenwert unter gemessenem Widerstand \par
+ R2 : Widerstandstabellenwert über gemessenem Widerstand \par
+
+
+(Quelle: Elektrische Temperaturmessung (M. Nau / jumo))
+
+
+
+Definiert in Zeile 94 der Datei pt100lib.c.
+
+
+
+Benutzt INDEX\_\-MAX, pt100\_\-table, T\_\-DIFF, T\_\-MAX und T\_\-MIN.
+

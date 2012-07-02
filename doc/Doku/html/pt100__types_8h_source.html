@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Pt100Library: /home/rb/workspace/pt100lib/includes/pt100_types.h Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Pt100Library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+      <li><a href="globals.html"><span>Datei-Elemente</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('pt100__types_8h.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<h1>/home/rb/workspace/pt100lib/includes/pt100_types.h</h1>  </div>
+</div>
+<div class="contents">
+<a href="pt100__types_8h.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00009"></a>00009 <span class="preprocessor">#ifndef __PT100_TYPES_H__</span>
+<a name="l00010"></a>00010 <span class="preprocessor"></span><span class="preprocessor">#define __PT100_TYPES_H__</span>
+<a name="l00011"></a>00011 <span class="preprocessor"></span><span class="comment">/******************************************************************************/</span>
+<a name="l00012"></a>00012 
+<a name="l00017"></a><a class="code" href="pt100__types_8h.html#ab291f552d5fd4d65ac668d6b2b180919">00017</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>   <a class="code" href="pt100__types_8h.html#ab291f552d5fd4d65ac668d6b2b180919">__u8</a>;
+<a name="l00018"></a><a class="code" href="pt100__types_8h.html#ac915988d8c60a3b943f936c25f9eca6e">00018</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>  <a class="code" href="pt100__types_8h.html#ac915988d8c60a3b943f936c25f9eca6e">__u16</a>;
+<a name="l00019"></a><a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">00019</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>   <a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">__u32</a>;
+<a name="l00020"></a><a class="code" href="pt100__types_8h.html#a0d73388ab5d53ebb5368677f33ff9c63">00020</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="pt100__types_8h.html#a0d73388ab5d53ebb5368677f33ff9c63">__u64</a>;
+<a name="l00027"></a><a class="code" href="pt100__types_8h.html#afbecaec6b78809bfcb9a77e44e1d1f6d">00027</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#afbecaec6b78809bfcb9a77e44e1d1f6d">__uc8</a>;
+<a name="l00028"></a><a class="code" href="pt100__types_8h.html#ac3fe55ac77a001b6e6ce9a56d2898c4d">00028</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#ac3fe55ac77a001b6e6ce9a56d2898c4d">__uc16</a>;
+<a name="l00029"></a><a class="code" href="pt100__types_8h.html#a8fbd842df23a12cc032e5c0b2f0f1b2b">00029</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a8fbd842df23a12cc032e5c0b2f0f1b2b">__uc32</a>;
+<a name="l00030"></a><a class="code" href="pt100__types_8h.html#a736c156c3f292472efee5a420c1553fa">00030</a> <span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a736c156c3f292472efee5a420c1553fa">__uc64</a>;
+<a name="l00037"></a><a class="code" href="pt100__types_8h.html#a9e371a4230da8dd05ce434b233a5f8d0">00037</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">char</span>   <a class="code" href="pt100__types_8h.html#a9e371a4230da8dd05ce434b233a5f8d0">__s8</a>;
+<a name="l00038"></a><a class="code" href="pt100__types_8h.html#a42464a025f49ae8b6e1f59cc8d63c8ef">00038</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">short</span>  <a class="code" href="pt100__types_8h.html#a42464a025f49ae8b6e1f59cc8d63c8ef">__s16</a>;
+<a name="l00039"></a><a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">00039</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span>   <a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a>;
+<a name="l00040"></a><a class="code" href="pt100__types_8h.html#a293039e5f2bbaaf6a927a9f19de1b5cb">00040</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="pt100__types_8h.html#a293039e5f2bbaaf6a927a9f19de1b5cb">__s64</a>;
+<a name="l00047"></a><a class="code" href="pt100__types_8h.html#a5a4829a6d347708629d293327221f199">00047</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">char</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a5a4829a6d347708629d293327221f199">__sc8</a>;
+<a name="l00048"></a><a class="code" href="pt100__types_8h.html#ae1a4fa2b70c8e7b0a14c847792bc3a30">00048</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">short</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#ae1a4fa2b70c8e7b0a14c847792bc3a30">__sc16</a>;
+<a name="l00049"></a><a class="code" href="pt100__types_8h.html#a3b8253e65adcf8b3962a910649b3c018">00049</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a3b8253e65adcf8b3962a910649b3c018">__sc32</a>;
+<a name="l00050"></a><a class="code" href="pt100__types_8h.html#afb547e62ebbe1b6f496a44055bb9243c">00050</a> <span class="keyword">typedef</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#afb547e62ebbe1b6f496a44055bb9243c">__sc64</a>;
+<a name="l00057"></a><a class="code" href="pt100__types_8h.html#a28312fe8bff2341c48b3e4d992d615ff">00057</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>   <a class="code" href="pt100__types_8h.html#a28312fe8bff2341c48b3e4d992d615ff">__vu8</a>;
+<a name="l00058"></a><a class="code" href="pt100__types_8h.html#a02c9e113cccaced25355f2ac0982c9fc">00058</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span>  <a class="code" href="pt100__types_8h.html#a02c9e113cccaced25355f2ac0982c9fc">__vu16</a>;
+<a name="l00059"></a><a class="code" href="pt100__types_8h.html#a175ce62be44705ebc9f08bcb9dea9a44">00059</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>   <a class="code" href="pt100__types_8h.html#a175ce62be44705ebc9f08bcb9dea9a44">__vu32</a>;
+<a name="l00060"></a><a class="code" href="pt100__types_8h.html#a758778f8bd8fd5b761dc7c8b4fb433c6">00060</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="pt100__types_8h.html#a758778f8bd8fd5b761dc7c8b4fb433c6">__vu64</a>;
+<a name="l00067"></a><a class="code" href="pt100__types_8h.html#a43b826556f5e9d50fd254182e3db0951">00067</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a43b826556f5e9d50fd254182e3db0951">__vuc8</a>;
+<a name="l00068"></a><a class="code" href="pt100__types_8h.html#ae1a1d3d6761a62841ecd0bc90c9e4547">00068</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#ae1a1d3d6761a62841ecd0bc90c9e4547">__vuc16</a>;
+<a name="l00069"></a><a class="code" href="pt100__types_8h.html#ab3f7766a64ee1a709e790ba9310081c1">00069</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#ab3f7766a64ee1a709e790ba9310081c1">__vuc32</a>;
+<a name="l00070"></a><a class="code" href="pt100__types_8h.html#acca09cbdf5ae6aa6cf17ddfecc2b7643">00070</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#acca09cbdf5ae6aa6cf17ddfecc2b7643">__vuc64</a>;
+<a name="l00077"></a><a class="code" href="pt100__types_8h.html#a04a686db85ae2909a792cb5b3cc49417">00077</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">char</span>   <a class="code" href="pt100__types_8h.html#a04a686db85ae2909a792cb5b3cc49417">__vs8</a>;
+<a name="l00078"></a><a class="code" href="pt100__types_8h.html#a128e023f9923f6adc90f5e084a8e0a30">00078</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">short</span>  <a class="code" href="pt100__types_8h.html#a128e023f9923f6adc90f5e084a8e0a30">__vs16</a>;
+<a name="l00079"></a><a class="code" href="pt100__types_8h.html#adf9c6fd459ab1023ef7158c1eff85d71">00079</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span>   <a class="code" href="pt100__types_8h.html#adf9c6fd459ab1023ef7158c1eff85d71">__vs32</a>;
+<a name="l00080"></a><a class="code" href="pt100__types_8h.html#a751da396e189383a86628773a9028ed3">00080</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <a class="code" href="pt100__types_8h.html#a751da396e189383a86628773a9028ed3">__vs64</a>;
+<a name="l00087"></a><a class="code" href="pt100__types_8h.html#a0e0d980a0f85db0ce4a8c72a6617e9f6">00087</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">char</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a0e0d980a0f85db0ce4a8c72a6617e9f6">__vsc8</a>;
+<a name="l00088"></a><a class="code" href="pt100__types_8h.html#a31feb614f99ee726de274a443e6dba52">00088</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">short</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a31feb614f99ee726de274a443e6dba52">__vsc16</a>;
+<a name="l00089"></a><a class="code" href="pt100__types_8h.html#ac00c4619b3ececba81a4c877289c6410">00089</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span>  <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#ac00c4619b3ececba81a4c877289c6410">__vsc32</a>;
+<a name="l00090"></a><a class="code" href="pt100__types_8h.html#a6e034269c925bb4ae01577bff9d69ee1">00090</a> <span class="keyword">typedef</span> <span class="keyword">volatile</span> <span class="keywordtype">signed</span> <span class="keywordtype">long</span> <span class="keywordtype">long</span> <span class="keyword">const</span> <a class="code" href="pt100__types_8h.html#a6e034269c925bb4ae01577bff9d69ee1">__vsc64</a>;
+<a name="l00098"></a><a class="code" href="pt100__types_8h.html#af6a258d8f3ee5206d682d799316314b1aa82764c3079aea4e60c80e45befbb839">00098</a> <span class="keyword">typedef</span> <span class="keyword">enum</span> {<a class="code" href="pt100__types_8h.html#af6a258d8f3ee5206d682d799316314b1aa1e095cc966dbecf6a0d8aad75348d1a">FALSE</a> = 0, <a class="code" href="pt100__types_8h.html#af6a258d8f3ee5206d682d799316314b1aa82764c3079aea4e60c80e45befbb839">TRUE</a> = !<a class="code" href="pt100__types_8h.html#af6a258d8f3ee5206d682d799316314b1aa1e095cc966dbecf6a0d8aad75348d1a">FALSE</a>} <a class="code" href="pt100__types_8h.html#af6a258d8f3ee5206d682d799316314b1" title="Typdefinitionen TRUE / FALSE.">bool</a>;
+<a name="l00099"></a>00099 <span class="comment">/******************************************************************************/</span>
+<a name="l00100"></a>00100 
+<a name="l00101"></a>00101 <span class="preprocessor">#endif //__PT100_TYPES_H__</span>
+</pre></div></div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="pt100__types_8h.html">pt100_types.h</a>      </li>
+      <li class="footer">Erzeugt am Mon Jul 2 2012 14:05:27 für Pt100Library von&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
+    </ul>
+  </div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Dateien</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funktionen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variablen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typdefinitionen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Aufzählungen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Aufzählungswerte</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Makrodefinitionen</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>

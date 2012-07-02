@@ -1,0 +1,125 @@
+.TH "/home/rb/workspace/pt100lib/includes/pt100lib.h" 3 "Mon Jul 2 2012" "Pt100Library" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+/home/rb/workspace/pt100lib/includes/pt100lib.h \- 
+.PP
+Bibiliothek mit PT100 Funktionen.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <pt100_types.h>\fP
+.br
+\fC#include <stdlib.h>\fP
+.br
+
+.SS "Funktionen"
+
+.in +1c
+.ti -1c
+.RI "\fB__s32\fP \fBpt100_R2T\fP (\fB__u32\fP u32Widerstand)"
+.br
+.RI "\fIWandelt einen PT100-Widerstandswert in eine Temperatur um. \fP"
+.ti -1c
+.RI "\fB__u32\fP \fBpt100_T2R\fP (\fB__s32\fP s32Temperatur)"
+.br
+.RI "\fIWandelt eine Temperatur in einen Pt100 Widerstandswert. \fP"
+.in -1c
+.SH "Ausführliche Beschreibung"
+.PP 
+Bibiliothek mit PT100 Funktionen. 
+
+\fBAutor:\fP
+.RS 4
+Roman Buchert (roman.buchert@googlemail.com) 
+.RE
+.PP
+
+.PP
+Definiert in Datei \fBpt100lib.h\fP.
+.SH "Dokumentation der Funktionen"
+.PP 
+.SS "\fB__s32\fP pt100_R2T (\fB__u32\fPu32Widerstand)"
+.PP
+Wandelt einen PT100-Widerstandswert in eine Temperatur um. \fBParameter:\fP
+.RS 4
+\fIu32Widerstand\fP Widerstand in mOhm 
+.RE
+.PP
+\fBRückgabe:\fP
+.RS 4
+Temperatur in °mC 
+.RE
+.PP
+
+.PP
+Temperatur berechnen \[ T = T1 + \frac{(T2-T1)*(R-R1)}{(R2-R1)} \] (T2 -T1) x (R - R1) 
+.br
+ T = T1 + ------------------- 
+.br
+ (R2 - R1) 
+.br
+.PP
+T : berechnete Temperatur 
+.br
+ T1 : Temperaturtabellenwert unter gemessenem Widerstand 
+.br
+ T2 : Temperaturtabellenwert über gemessenem Widerstand 
+.br
+.PP
+R : gemessener Widerstand 
+.br
+ R1 : Widerstandstabellenwert unter gemessenem Widerstand 
+.br
+ R2 : Widerstandstabellenwert über gemessenem Widerstand 
+.br
+.PP
+(Quelle: Elektrische Temperaturmessung (M. Nau / jumo))
+.PP
+Definiert in Zeile 23 der Datei pt100lib.c.
+.PP
+Benutzt INDEX_MAX, INDEX_ZERO, pt100_table, R_MAX, R_MIN und T_DIFF.
+.SS "\fB__u32\fP pt100_T2R (\fB__s32\fPs32Temperatur)"
+.PP
+Wandelt eine Temperatur in einen Pt100 Widerstandswert. \fBParameter:\fP
+.RS 4
+\fIs32Temperatur\fP Temperatur in m°C 
+.RE
+.PP
+\fBRückgabe:\fP
+.RS 4
+Widerstand in mOhm 
+.RE
+.PP
+
+.PP
+Widerstand berechnen \[ R = R1 + \frac{(R2-R1)*(T-T1)}{(T2-T1)} \] (R2 -R1) x (T - T1) 
+.br
+ R = R1 + ------------------- 
+.br
+ (T2 - T1) 
+.br
+.PP
+T : berechnete Temperatur 
+.br
+ T1 : Temperaturtabellenwert unter gemessenem Widerstand 
+.br
+ T2 : Temperaturtabellenwert über gemessenem Widerstand 
+.br
+.PP
+R : gemessener Widerstand 
+.br
+ R1 : Widerstandstabellenwert unter gemessenem Widerstand 
+.br
+ R2 : Widerstandstabellenwert über gemessenem Widerstand 
+.br
+.PP
+(Quelle: Elektrische Temperaturmessung (M. Nau / jumo))
+.PP
+Definiert in Zeile 94 der Datei pt100lib.c.
+.PP
+Benutzt INDEX_MAX, pt100_table, T_DIFF, T_MAX und T_MIN.
+.SH "Autor"
+.PP 
+Automatisch erzeugt von Doxygen für Pt100Library aus dem Quellcode.

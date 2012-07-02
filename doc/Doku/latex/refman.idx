@@ -1,0 +1,98 @@
+\indexentry{/home/rb/workspace/pt100lib/includes/pt100\_\discretionary {-}{}{}types.h@{/home/rb/workspace/pt100lib/includes/pt100\_\discretionary {-}{}{}types.h}|hyperpage}{3}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}s16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s16}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}s32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s32}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}s64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s64}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}s8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s8}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}s8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc16}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc32}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc64}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc8}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}u16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u16}|hyperpage}{5}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{5}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}u32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u32}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}u64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u64}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}u8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u8}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}u8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc16}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc32}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc64}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc8}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs16}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs32}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs64}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs8}|hyperpage}{6}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{6}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc16}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc32}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc64}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc8}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu16}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu32}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu64}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu8}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc16}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc16@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc16}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc32}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc32@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc32}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc64}|hyperpage}{7}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc64@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc64}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{7}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc8}|hyperpage}{8}
+\indexentry{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc8@{\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc8}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{8}
+\indexentry{pt100\_\discretionary {-}{}{}types.h@{pt100\_\discretionary {-}{}{}types.h}!bool@{bool}|hyperpage}{8}
+\indexentry{bool@{bool}!pt100_types.h@{pt100\_\discretionary {-}{}{}types.h}|hyperpage}{8}
+\indexentry{FALSE@{FALSE}!pt100\_\-types.h@{pt100\_\-types.h}|hyperpage}{8}
+\indexentry{pt100\_\-types.h@{pt100\_\-types.h}!FALSE@{FALSE}|hyperpage}{8}
+\indexentry{TRUE@{TRUE}!pt100\_\-types.h@{pt100\_\-types.h}|hyperpage}{8}
+\indexentry{pt100\_\-types.h@{pt100\_\-types.h}!TRUE@{TRUE}|hyperpage}{8}
+\indexentry{/home/rb/workspace/pt100lib/includes/pt100lib.h@{/home/rb/workspace/pt100lib/includes/pt100lib.h}|hyperpage}{8}
+\indexentry{pt100lib.h@{pt100lib.h}!pt100\_\discretionary {-}{}{}R2T@{pt100\_\discretionary {-}{}{}R2T}|hyperpage}{9}
+\indexentry{pt100\_\discretionary {-}{}{}R2T@{pt100\_\discretionary {-}{}{}R2T}!pt100lib.h@{pt100lib.h}|hyperpage}{9}
+\indexentry{pt100lib.h@{pt100lib.h}!pt100\_\discretionary {-}{}{}T2R@{pt100\_\discretionary {-}{}{}T2R}|hyperpage}{10}
+\indexentry{pt100\_\discretionary {-}{}{}T2R@{pt100\_\discretionary {-}{}{}T2R}!pt100lib.h@{pt100lib.h}|hyperpage}{10}
+\indexentry{/home/rb/workspace/pt100lib/private/pt100\_\discretionary {-}{}{}table.h@{/home/rb/workspace/pt100lib/private/pt100\_\discretionary {-}{}{}table.h}|hyperpage}{10}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!INDEX\_\discretionary {-}{}{}MAX@{INDEX\_\discretionary {-}{}{}MAX}|hyperpage}{11}
+\indexentry{INDEX\_\discretionary {-}{}{}MAX@{INDEX\_\discretionary {-}{}{}MAX}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{11}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!INDEX\_\discretionary {-}{}{}ZERO@{INDEX\_\discretionary {-}{}{}ZERO}|hyperpage}{11}
+\indexentry{INDEX\_\discretionary {-}{}{}ZERO@{INDEX\_\discretionary {-}{}{}ZERO}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{11}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!R\_\discretionary {-}{}{}MAX@{R\_\discretionary {-}{}{}MAX}|hyperpage}{12}
+\indexentry{R\_\discretionary {-}{}{}MAX@{R\_\discretionary {-}{}{}MAX}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{12}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!R\_\discretionary {-}{}{}MIN@{R\_\discretionary {-}{}{}MIN}|hyperpage}{12}
+\indexentry{R\_\discretionary {-}{}{}MIN@{R\_\discretionary {-}{}{}MIN}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{12}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!T\_\discretionary {-}{}{}DIFF@{T\_\discretionary {-}{}{}DIFF}|hyperpage}{12}
+\indexentry{T\_\discretionary {-}{}{}DIFF@{T\_\discretionary {-}{}{}DIFF}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{12}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!T\_\discretionary {-}{}{}MAX@{T\_\discretionary {-}{}{}MAX}|hyperpage}{12}
+\indexentry{T\_\discretionary {-}{}{}MAX@{T\_\discretionary {-}{}{}MAX}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{12}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!T\_\discretionary {-}{}{}MIN@{T\_\discretionary {-}{}{}MIN}|hyperpage}{12}
+\indexentry{T\_\discretionary {-}{}{}MIN@{T\_\discretionary {-}{}{}MIN}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{12}
+\indexentry{pt100\_\discretionary {-}{}{}table.h@{pt100\_\discretionary {-}{}{}table.h}!pt100\_\discretionary {-}{}{}table@{pt100\_\discretionary {-}{}{}table}|hyperpage}{13}
+\indexentry{pt100\_\discretionary {-}{}{}table@{pt100\_\discretionary {-}{}{}table}!pt100_table.h@{pt100\_\discretionary {-}{}{}table.h}|hyperpage}{13}
+\indexentry{/home/rb/workspace/pt100lib/src/pt100lib.c@{/home/rb/workspace/pt100lib/src/pt100lib.c}|hyperpage}{13}
+\indexentry{pt100lib.c@{pt100lib.c}!pt100\_\discretionary {-}{}{}R2T@{pt100\_\discretionary {-}{}{}R2T}|hyperpage}{14}
+\indexentry{pt100\_\discretionary {-}{}{}R2T@{pt100\_\discretionary {-}{}{}R2T}!pt100lib.c@{pt100lib.c}|hyperpage}{14}
+\indexentry{pt100lib.c@{pt100lib.c}!pt100\_\discretionary {-}{}{}T2R@{pt100\_\discretionary {-}{}{}T2R}|hyperpage}{14}
+\indexentry{pt100\_\discretionary {-}{}{}T2R@{pt100\_\discretionary {-}{}{}T2R}!pt100lib.c@{pt100lib.c}|hyperpage}{14}

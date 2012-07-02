@@ -1,0 +1,63 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Datei-\/Verzeichnis}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Auflistung der Dateien}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Datei-\/Dokumentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}/home/rb/workspace/pt100lib/includes/pt100\_\discretionary {-}{}{}types.h-\/Dateireferenz}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Ausf\IeC {\"u}hrliche Beschreibung}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Dokumentation der benutzerdefinierten Typen}{5}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}\_\discretionary {-}{}{}\_\discretionary {-}{}{}s16}{5}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}\_\discretionary {-}{}{}\_\discretionary {-}{}{}s32}{5}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}\_\discretionary {-}{}{}\_\discretionary {-}{}{}s64}{5}{subsubsection.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.1.2.4}\_\discretionary {-}{}{}\_\discretionary {-}{}{}s8}{5}{subsubsection.2.1.2.4}
+\contentsline {subsubsection}{\numberline {2.1.2.5}\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc16}{5}{subsubsection.2.1.2.5}
+\contentsline {subsubsection}{\numberline {2.1.2.6}\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc32}{5}{subsubsection.2.1.2.6}
+\contentsline {subsubsection}{\numberline {2.1.2.7}\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc64}{5}{subsubsection.2.1.2.7}
+\contentsline {subsubsection}{\numberline {2.1.2.8}\_\discretionary {-}{}{}\_\discretionary {-}{}{}sc8}{5}{subsubsection.2.1.2.8}
+\contentsline {subsubsection}{\numberline {2.1.2.9}\_\discretionary {-}{}{}\_\discretionary {-}{}{}u16}{6}{subsubsection.2.1.2.9}
+\contentsline {subsubsection}{\numberline {2.1.2.10}\_\discretionary {-}{}{}\_\discretionary {-}{}{}u32}{6}{subsubsection.2.1.2.10}
+\contentsline {subsubsection}{\numberline {2.1.2.11}\_\discretionary {-}{}{}\_\discretionary {-}{}{}u64}{6}{subsubsection.2.1.2.11}
+\contentsline {subsubsection}{\numberline {2.1.2.12}\_\discretionary {-}{}{}\_\discretionary {-}{}{}u8}{6}{subsubsection.2.1.2.12}
+\contentsline {subsubsection}{\numberline {2.1.2.13}\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc16}{6}{subsubsection.2.1.2.13}
+\contentsline {subsubsection}{\numberline {2.1.2.14}\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc32}{6}{subsubsection.2.1.2.14}
+\contentsline {subsubsection}{\numberline {2.1.2.15}\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc64}{6}{subsubsection.2.1.2.15}
+\contentsline {subsubsection}{\numberline {2.1.2.16}\_\discretionary {-}{}{}\_\discretionary {-}{}{}uc8}{6}{subsubsection.2.1.2.16}
+\contentsline {subsubsection}{\numberline {2.1.2.17}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs16}{6}{subsubsection.2.1.2.17}
+\contentsline {subsubsection}{\numberline {2.1.2.18}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs32}{6}{subsubsection.2.1.2.18}
+\contentsline {subsubsection}{\numberline {2.1.2.19}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs64}{6}{subsubsection.2.1.2.19}
+\contentsline {subsubsection}{\numberline {2.1.2.20}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vs8}{7}{subsubsection.2.1.2.20}
+\contentsline {subsubsection}{\numberline {2.1.2.21}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc16}{7}{subsubsection.2.1.2.21}
+\contentsline {subsubsection}{\numberline {2.1.2.22}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc32}{7}{subsubsection.2.1.2.22}
+\contentsline {subsubsection}{\numberline {2.1.2.23}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc64}{7}{subsubsection.2.1.2.23}
+\contentsline {subsubsection}{\numberline {2.1.2.24}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vsc8}{7}{subsubsection.2.1.2.24}
+\contentsline {subsubsection}{\numberline {2.1.2.25}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu16}{7}{subsubsection.2.1.2.25}
+\contentsline {subsubsection}{\numberline {2.1.2.26}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu32}{7}{subsubsection.2.1.2.26}
+\contentsline {subsubsection}{\numberline {2.1.2.27}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu64}{7}{subsubsection.2.1.2.27}
+\contentsline {subsubsection}{\numberline {2.1.2.28}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vu8}{7}{subsubsection.2.1.2.28}
+\contentsline {subsubsection}{\numberline {2.1.2.29}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc16}{7}{subsubsection.2.1.2.29}
+\contentsline {subsubsection}{\numberline {2.1.2.30}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc32}{7}{subsubsection.2.1.2.30}
+\contentsline {subsubsection}{\numberline {2.1.2.31}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc64}{8}{subsubsection.2.1.2.31}
+\contentsline {subsubsection}{\numberline {2.1.2.32}\_\discretionary {-}{}{}\_\discretionary {-}{}{}vuc8}{8}{subsubsection.2.1.2.32}
+\contentsline {subsection}{\numberline {2.1.3}Dokumentation der Aufz\IeC {\"a}hlungstypen}{8}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}bool}{8}{subsubsection.2.1.3.1}
+\contentsline {section}{\numberline {2.2}/home/rb/workspace/pt100lib/includes/pt100lib.h-\/Dateireferenz}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Ausf\IeC {\"u}hrliche Beschreibung}{9}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Dokumentation der Funktionen}{9}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}pt100\_\discretionary {-}{}{}R2T}{9}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}pt100\_\discretionary {-}{}{}T2R}{10}{subsubsection.2.2.2.2}
+\contentsline {section}{\numberline {2.3}/home/rb/workspace/pt100lib/private/pt100\_\discretionary {-}{}{}table.h-\/Dateireferenz}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Ausf\IeC {\"u}hrliche Beschreibung}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Makro-\/Dokumentation}{11}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}INDEX\_\discretionary {-}{}{}MAX}{11}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}INDEX\_\discretionary {-}{}{}ZERO}{12}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}R\_\discretionary {-}{}{}MAX}{12}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}R\_\discretionary {-}{}{}MIN}{12}{subsubsection.2.3.2.4}
+\contentsline {subsubsection}{\numberline {2.3.2.5}T\_\discretionary {-}{}{}DIFF}{12}{subsubsection.2.3.2.5}
+\contentsline {subsubsection}{\numberline {2.3.2.6}T\_\discretionary {-}{}{}MAX}{12}{subsubsection.2.3.2.6}
+\contentsline {subsubsection}{\numberline {2.3.2.7}T\_\discretionary {-}{}{}MIN}{12}{subsubsection.2.3.2.7}
+\contentsline {subsection}{\numberline {2.3.3}Variablen-\/Dokumentation}{13}{subsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.3.1}pt100\_\discretionary {-}{}{}table}{13}{subsubsection.2.3.3.1}
+\contentsline {section}{\numberline {2.4}/home/rb/workspace/pt100lib/src/pt100lib.c-\/Dateireferenz}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Ausf\IeC {\"u}hrliche Beschreibung}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Dokumentation der Funktionen}{14}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}pt100\_\discretionary {-}{}{}R2T}{14}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}pt100\_\discretionary {-}{}{}T2R}{14}{subsubsection.2.4.2.2}

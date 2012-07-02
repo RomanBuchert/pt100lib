@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<title>Pt100Library: /home/rb/workspace/pt100lib/src/pt100lib.c Quellcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript">
+$(document).ready(initResizable);
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+</head>
+<body onload='searchBox.OnSelectItem(0);'>
+<!-- Erzeugt von Doxygen 1.7.3 -->
+<script type="text/javascript"><!--
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+--></script>
+<div id="top">
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Pt100Library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li id="searchli">
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+      <li><a href="globals.html"><span>Datei-Elemente</span></a></li>
+    </ul>
+  </div>
+</div>
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+  initNavTree('pt100lib_8c.html','');
+</script>
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle">
+<h1>/home/rb/workspace/pt100lib/src/pt100lib.c</h1>  </div>
+</div>
+<div class="contents">
+<a href="pt100lib_8c.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
+<a name="l00007"></a>00007 <span class="comment">/******************************************************************************/</span>
+<a name="l00008"></a>00008 
+<a name="l00009"></a>00009 <span class="comment">/*</span>
+<a name="l00010"></a>00010 <span class="comment"> ******************************************************************************</span>
+<a name="l00011"></a>00011 <span class="comment"> * INCLUDE-Dateien</span>
+<a name="l00012"></a>00012 <span class="comment"> ******************************************************************************/</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &lt;pt100lib.h&gt;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;pt100_table.h&gt;</span>
+<a name="l00015"></a>00015 <span class="comment">/******************************************************************************/</span>
+<a name="l00016"></a>00016 
+<a name="l00023"></a><a class="code" href="pt100lib_8c.html#a49de64016a5145d95be6830e2240d6bb">00023</a> <a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a> <a class="code" href="pt100lib_8h.html#a49de64016a5145d95be6830e2240d6bb" title="Wandelt einen PT100-Widerstandswert in eine Temperatur um.">pt100_R2T</a>(<a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">__u32</a> u32Widerstand)
+<a name="l00024"></a>00024 {
+<a name="l00025"></a>00025   <a class="code" href="pt100__types_8h.html#ac915988d8c60a3b943f936c25f9eca6e">__u16</a> u16WidCntr;
+<a name="l00026"></a>00026   <a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a> s32T, s32T1;    <span class="comment">//Hilfsvariablen Temperatur</span>
+<a name="l00027"></a>00027   <a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">__u32</a> u32R1, u32R2;   <span class="comment">//Hilfsvariablen Widerstand</span>
+<a name="l00028"></a>00028 
+<a name="l00029"></a>00029   <span class="comment">// Prüfe, ob Widerstand innerhalb der Tabelle liegt</span>
+<a name="l00030"></a>00030   <span class="keywordflow">if</span> (u32Widerstand &gt; <a class="code" href="pt100__table_8h.html#a44d864c7ff8bf7f56435a1226c9e8a99" title="Maximaler Widerstandswert in mOhm.">R_MAX</a>)
+<a name="l00031"></a>00031   {
+<a name="l00032"></a>00032     u32Widerstand = <a class="code" href="pt100__table_8h.html#a44d864c7ff8bf7f56435a1226c9e8a99" title="Maximaler Widerstandswert in mOhm.">R_MAX</a>;
+<a name="l00033"></a>00033   }
+<a name="l00034"></a>00034   <span class="keywordflow">else</span> <span class="keywordflow">if</span> (u32Widerstand &lt; <a class="code" href="pt100__table_8h.html#a58cacf232e018f6c32af1f496a7a9aa0" title="Minimaler Widerstandswert in mOhm.">R_MIN</a>)
+<a name="l00035"></a>00035   {
+<a name="l00036"></a>00036     u32Widerstand = <a class="code" href="pt100__table_8h.html#a58cacf232e018f6c32af1f496a7a9aa0" title="Minimaler Widerstandswert in mOhm.">R_MIN</a>;
+<a name="l00037"></a>00037   }
+<a name="l00038"></a>00038 
+<a name="l00039"></a>00039   <span class="comment">// Suche nächst größeren Widerstand aus der Tabelle</span>
+<a name="l00040"></a>00040   <span class="keywordflow">for</span>(u16WidCntr = 0; u32Widerstand &gt; <a class="code" href="pt100__table_8h.html#afbf775603ef1f6f0ef7d4a0af6a490c0" title="Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten.">pt100_table</a>[u16WidCntr]; u16WidCntr++);
+<a name="l00041"></a>00041 
+<a name="l00042"></a>00042   <span class="comment">// Bereichsprüfung unten</span>
+<a name="l00043"></a>00043   <span class="keywordflow">if</span> (!u16WidCntr)
+<a name="l00044"></a>00044   {
+<a name="l00045"></a>00045     u32Widerstand = <a class="code" href="pt100__table_8h.html#a58cacf232e018f6c32af1f496a7a9aa0" title="Minimaler Widerstandswert in mOhm.">R_MIN</a>;
+<a name="l00046"></a>00046     u16WidCntr++;
+<a name="l00047"></a>00047   }
+<a name="l00048"></a>00048 
+<a name="l00049"></a>00049   <span class="comment">// Bereichsprüfung oben</span>
+<a name="l00050"></a>00050   <span class="keywordflow">if</span> (u16WidCntr &gt; <a class="code" href="pt100__table_8h.html#a44d864c7ff8bf7f56435a1226c9e8a99" title="Maximaler Widerstandswert in mOhm.">R_MAX</a>)
+<a name="l00051"></a>00051   {
+<a name="l00052"></a>00052     u32Widerstand = <a class="code" href="pt100__table_8h.html#a44d864c7ff8bf7f56435a1226c9e8a99" title="Maximaler Widerstandswert in mOhm.">R_MAX</a>;
+<a name="l00053"></a>00053     u16WidCntr = <a class="code" href="pt100__table_8h.html#a26db5af8ea96c4eb44a373ca5c41f494" title="Maximaler Index der PT100-Tabelle.">INDEX_MAX</a> + 1;
+<a name="l00054"></a>00054   }
+<a name="l00055"></a>00055 
+<a name="l00056"></a>00056   <span class="comment">// nächst kleineren Widerstand auswählen</span>
+<a name="l00057"></a>00057   u16WidCntr--;
+<a name="l00058"></a>00058 
+<a name="l00077"></a>00077   s32T1 = ((<a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a>) u16WidCntr - (<a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a>)<a class="code" href="pt100__table_8h.html#ad65514e056b8be6706716483611e9463" title="Index für 0°C in der PT100-Tabelle.">INDEX_ZERO</a>) * (<a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a>) <a class="code" href="pt100__table_8h.html#a993bb708226c81076621cb7eb014eaba" title="Temperaturintervall der Widerstandstabelle in mK.">T_DIFF</a>;
+<a name="l00078"></a>00078   u32R1 = pt100_table[u16WidCntr];
+<a name="l00079"></a>00079   u32R2 = pt100_table[u16WidCntr + 1];
+<a name="l00080"></a>00080 
+<a name="l00081"></a>00081   s32T = (s32T1 + ((<a class="code" href="pt100__table_8h.html#a993bb708226c81076621cb7eb014eaba" title="Temperaturintervall der Widerstandstabelle in mK.">T_DIFF</a> * (u32Widerstand - u32R1)) / (u32R2 - u32R1)));
+<a name="l00082"></a>00082 
+<a name="l00083"></a>00083   <span class="keywordflow">return</span> (s32T);
+<a name="l00084"></a>00084 
+<a name="l00085"></a>00085 }
+<a name="l00086"></a>00086 <span class="comment">/******************************************************************************/</span>
+<a name="l00087"></a>00087 
+<a name="l00094"></a><a class="code" href="pt100lib_8c.html#a9346ef20f269515f671f6491077e5c70">00094</a> <a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">__u32</a> <a class="code" href="pt100lib_8h.html#a9346ef20f269515f671f6491077e5c70" title="Wandelt eine Temperatur in einen Pt100 Widerstandswert.">pt100_T2R</a>( <a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a> s32Temperatur)
+<a name="l00095"></a>00095 {
+<a name="l00096"></a>00096   <a class="code" href="pt100__types_8h.html#ac915988d8c60a3b943f936c25f9eca6e">__u16</a> u16TmpCntr;
+<a name="l00097"></a>00097   <a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a> s32T, s32T1;            <span class="comment">//Hilfsvariablen Temperatur</span>
+<a name="l00098"></a>00098   <a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">__u32</a> u32R, u32R1, u32R2;     <span class="comment">//Hilfsvariablen Widerstand</span>
+<a name="l00099"></a>00099 
+<a name="l00100"></a>00100   <span class="comment">// Prüfe, ob Temperatur innerhalb der Tabelle liegt</span>
+<a name="l00101"></a>00101   <span class="keywordflow">if</span> (s32Temperatur &lt; <a class="code" href="pt100__table_8h.html#a0e37b765046be143ca51ec097adf606a" title="Minimale Temperatur der Widerstandstabelle in m°C.">T_MIN</a>)
+<a name="l00102"></a>00102   {
+<a name="l00103"></a>00103     s32Temperatur = <a class="code" href="pt100__table_8h.html#a0e37b765046be143ca51ec097adf606a" title="Minimale Temperatur der Widerstandstabelle in m°C.">T_MIN</a>;
+<a name="l00104"></a>00104   }
+<a name="l00105"></a>00105   <span class="keywordflow">else</span> <span class="keywordflow">if</span> (s32Temperatur &gt; <a class="code" href="pt100__table_8h.html#acd0dda75fa865e1efae98e3e2b204ef4" title="Maximale Temperatur der Widerstandstabelle in m°C.">T_MAX</a>)
+<a name="l00106"></a>00106   {
+<a name="l00107"></a>00107     s32Temperatur = <a class="code" href="pt100__table_8h.html#acd0dda75fa865e1efae98e3e2b204ef4" title="Maximale Temperatur der Widerstandstabelle in m°C.">T_MAX</a>;
+<a name="l00108"></a>00108   }
+<a name="l00109"></a>00109 
+<a name="l00110"></a>00110   <span class="comment">// Suche Widerstandswerte</span>
+<a name="l00111"></a>00111   s32T = s32Temperatur + labs(<a class="code" href="pt100__table_8h.html#a0e37b765046be143ca51ec097adf606a" title="Minimale Temperatur der Widerstandstabelle in m°C.">T_MIN</a>);
+<a name="l00112"></a>00112   u16TmpCntr = (<a class="code" href="pt100__types_8h.html#ac915988d8c60a3b943f936c25f9eca6e">__u16</a>)(s32T / (<a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a>)<a class="code" href="pt100__table_8h.html#a993bb708226c81076621cb7eb014eaba" title="Temperaturintervall der Widerstandstabelle in mK.">T_DIFF</a>);
+<a name="l00113"></a>00113 
+<a name="l00114"></a>00114   <span class="comment">//Array begrenzen</span>
+<a name="l00115"></a>00115   <span class="keywordflow">if</span> (u16TmpCntr == <a class="code" href="pt100__table_8h.html#a26db5af8ea96c4eb44a373ca5c41f494" title="Maximaler Index der PT100-Tabelle.">INDEX_MAX</a>)
+<a name="l00116"></a>00116   {
+<a name="l00117"></a>00117     u16TmpCntr = <a class="code" href="pt100__table_8h.html#a26db5af8ea96c4eb44a373ca5c41f494" title="Maximaler Index der PT100-Tabelle.">INDEX_MAX</a> - 1;
+<a name="l00118"></a>00118   }
+<a name="l00137"></a>00137   s32T1 = (s32T / (<a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a>)<a class="code" href="pt100__table_8h.html#a993bb708226c81076621cb7eb014eaba" title="Temperaturintervall der Widerstandstabelle in mK.">T_DIFF</a>) * <a class="code" href="pt100__table_8h.html#a993bb708226c81076621cb7eb014eaba" title="Temperaturintervall der Widerstandstabelle in mK.">T_DIFF</a>;
+<a name="l00138"></a>00138   u32R1 = <a class="code" href="pt100__table_8h.html#afbf775603ef1f6f0ef7d4a0af6a490c0" title="Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten.">pt100_table</a>[u16TmpCntr];
+<a name="l00139"></a>00139   u32R2 = <a class="code" href="pt100__table_8h.html#afbf775603ef1f6f0ef7d4a0af6a490c0" title="Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten.">pt100_table</a>[u16TmpCntr + 1];
+<a name="l00140"></a>00140 
+<a name="l00141"></a>00141   u32R = u32R1 + (((s32T - s32T1)*(u32R2-u32R1))/(<a class="code" href="pt100__table_8h.html#a993bb708226c81076621cb7eb014eaba" title="Temperaturintervall der Widerstandstabelle in mK.">T_DIFF</a>));
+<a name="l00142"></a>00142 
+<a name="l00143"></a>00143   <span class="keywordflow">return</span> (u32R);
+<a name="l00144"></a>00144 }
+<a name="l00145"></a>00145 <span class="comment">/******************************************************************************/</span>
+<a name="l00146"></a>00146 
+<a name="l00153"></a>00153 <span class="comment">/******************************************************************************/</span>
+<a name="l00154"></a>00154 
+<a name="l00161"></a>00161 <span class="comment">/******************************************************************************/</span>
+<a name="l00162"></a>00162 
+<a name="l00169"></a>00169 <span class="comment">/******************************************************************************/</span>
+<a name="l00170"></a>00170 
+</pre></div></div>
+</div>
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="pt100lib_8c.html">pt100lib.c</a>      </li>
+      <li class="footer">Erzeugt am Mon Jul 2 2012 14:05:27 für Pt100Library von&#160;
+<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
+    </ul>
+  </div>
+<!--- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Dateien</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Funktionen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variablen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typdefinitionen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Aufzählungen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Aufzählungswerte</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Makrodefinitionen</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+
+</body>
+</html>
