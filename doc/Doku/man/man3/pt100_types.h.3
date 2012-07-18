@@ -1,10 +1,10 @@
-.TH "/home/rb/workspace/pt100lib/includes/pt100_types.h" 3 "Mon Jul 2 2012" "Pt100Library" \" -*- nroff -*-
+.TH "pt100_types.h" 3 "Mit Jul 18 2012" "PT100 Library" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-/home/rb/workspace/pt100lib/includes/pt100_types.h \- 
+pt100_types.h \- 
 .PP
-Typdefinitionen der PT100-Lib.  
+Typdefinitionen der PT100-Lib\&.  
 
 .SH SYNOPSIS
 .br
@@ -118,16 +118,24 @@ Typdefinitionen der PT100-Lib.
 .in +1c
 .in +1c
 .ti -1c
-.RI "typedef volatile unsigned char const \fB__vuc8\fP"
+.RI "typedef volatile unsigned char 
+.br
+const \fB__vuc8\fP"
 .br
 .ti -1c
-.RI "typedef volatile unsigned short const \fB__vuc16\fP"
+.RI "typedef volatile unsigned 
+.br
+short const \fB__vuc16\fP"
 .br
 .ti -1c
-.RI "typedef volatile unsigned long const \fB__vuc32\fP"
+.RI "typedef volatile unsigned long 
+.br
+const \fB__vuc32\fP"
 .br
 .ti -1c
-.RI "typedef volatile unsigned long long const \fB__vuc64\fP"
+.RI "typedef volatile unsigned long 
+.br
+long const \fB__vuc64\fP"
 .br
 .in -1c
 .in -1c
@@ -151,12 +159,13 @@ Typdefinitionen der PT100-Lib.
 .br
 .in -1c
 .in -1c
-.PP
-.RI "\fBTypdefinitionen signed volatile, nur lesend\fP"
-.br
+.SS "Typdefinitionen signed volatile, nur lesend"
 
 .in +1c
-.in +1c
+.ti -1c
+.RI "enum \fBbool\fP { \fBFALSE\fP =  0, \fBTRUE\fP =  1 }"
+.br
+.RI "\fITypdefinitionen TRUE / FALSE\&. \fP"
 .ti -1c
 .RI "typedef volatile signed char const \fB__vsc8\fP"
 .br
@@ -167,133 +176,126 @@ Typdefinitionen der PT100-Lib.
 .RI "typedef volatile signed long const \fB__vsc32\fP"
 .br
 .ti -1c
-.RI "typedef volatile signed long long const \fB__vsc64\fP"
+.RI "typedef volatile signed long 
 .br
-.in -1c
-.in -1c
-.SS "Aufzählungen"
-
-.in +1c
-.ti -1c
-.RI "enum \fBbool\fP { \fBFALSE\fP =  0, \fBTRUE\fP =  !FALSE }"
+long const \fB__vsc64\fP"
 .br
-.RI "\fITypdefinitionen TRUE / FALSE. \fP"
 .in -1c
 .SH "Ausführliche Beschreibung"
 .PP 
-Typdefinitionen der PT100-Lib. 
+Typdefinitionen der PT100-Lib\&. 
 
 \fBAutor:\fP
 .RS 4
-Roman Buchert (roman.buchert@googlemail.com) Hier stehen die Typdefinitionen, die von der PT100-Bibliothek verwendet werden. 
+Roman Buchert (roman.buchert@googlemail.com) Hier stehen die Typdefinitionen, die von der PT100-Bibliothek verwendet werden\&. 
 .RE
 .PP
 
 .PP
-Definiert in Datei \fBpt100_types.h\fP.
+Definiert in Datei \fBpt100_types\&.h\fP\&.
 .SH "Dokumentation der benutzerdefinierten Typen"
 .PP 
 .SS "typedef signed short \fB__s16\fP"
 .PP
-Definiert in Zeile 38 der Datei pt100_types.h.
+Definiert in Zeile 38 der Datei pt100_types\&.h\&.
 .SS "typedef signed long \fB__s32\fP"
 .PP
-Definiert in Zeile 39 der Datei pt100_types.h.
+Definiert in Zeile 39 der Datei pt100_types\&.h\&.
 .SS "typedef signed long long \fB__s64\fP"
 .PP
-Definiert in Zeile 40 der Datei pt100_types.h.
+Definiert in Zeile 40 der Datei pt100_types\&.h\&.
 .SS "typedef signed char \fB__s8\fP"
 .PP
-Definiert in Zeile 37 der Datei pt100_types.h.
+Definiert in Zeile 37 der Datei pt100_types\&.h\&.
 .SS "typedef signed short const \fB__sc16\fP"
 .PP
-Definiert in Zeile 48 der Datei pt100_types.h.
+Definiert in Zeile 48 der Datei pt100_types\&.h\&.
 .SS "typedef signed long const \fB__sc32\fP"
 .PP
-Definiert in Zeile 49 der Datei pt100_types.h.
+Definiert in Zeile 49 der Datei pt100_types\&.h\&.
 .SS "typedef signed long long const \fB__sc64\fP"
 .PP
-Definiert in Zeile 50 der Datei pt100_types.h.
+Definiert in Zeile 50 der Datei pt100_types\&.h\&.
 .SS "typedef signed char const \fB__sc8\fP"
 .PP
-Definiert in Zeile 47 der Datei pt100_types.h.
+Definiert in Zeile 47 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned short \fB__u16\fP"
 .PP
-Definiert in Zeile 18 der Datei pt100_types.h.
+Definiert in Zeile 18 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned long \fB__u32\fP"
 .PP
-Definiert in Zeile 19 der Datei pt100_types.h.
+Definiert in Zeile 19 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned long long \fB__u64\fP"
 .PP
-Definiert in Zeile 20 der Datei pt100_types.h.
+Definiert in Zeile 20 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned char \fB__u8\fP"
 .PP
-Definiert in Zeile 17 der Datei pt100_types.h.
+Definiert in Zeile 17 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned short const \fB__uc16\fP"
 .PP
-Definiert in Zeile 28 der Datei pt100_types.h.
+Definiert in Zeile 28 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned long const \fB__uc32\fP"
 .PP
-Definiert in Zeile 29 der Datei pt100_types.h.
+Definiert in Zeile 29 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned long long const \fB__uc64\fP"
 .PP
-Definiert in Zeile 30 der Datei pt100_types.h.
+Definiert in Zeile 30 der Datei pt100_types\&.h\&.
 .SS "typedef unsigned char const \fB__uc8\fP"
 .PP
-Definiert in Zeile 27 der Datei pt100_types.h.
+Definiert in Zeile 27 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed short \fB__vs16\fP"
 .PP
-Definiert in Zeile 78 der Datei pt100_types.h.
+Definiert in Zeile 78 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed long \fB__vs32\fP"
 .PP
-Definiert in Zeile 79 der Datei pt100_types.h.
+Definiert in Zeile 79 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed long long \fB__vs64\fP"
 .PP
-Definiert in Zeile 80 der Datei pt100_types.h.
+Definiert in Zeile 80 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed char \fB__vs8\fP"
 .PP
-Definiert in Zeile 77 der Datei pt100_types.h.
+Definiert in Zeile 77 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed short const \fB__vsc16\fP"
 .PP
-Definiert in Zeile 88 der Datei pt100_types.h.
+Definiert in Zeile 88 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed long const \fB__vsc32\fP"
 .PP
-Definiert in Zeile 89 der Datei pt100_types.h.
+Definiert in Zeile 89 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed long long const \fB__vsc64\fP"
 .PP
-Definiert in Zeile 90 der Datei pt100_types.h.
+Definiert in Zeile 90 der Datei pt100_types\&.h\&.
 .SS "typedef volatile signed char const \fB__vsc8\fP"
 .PP
-Definiert in Zeile 87 der Datei pt100_types.h.
+Definiert in Zeile 87 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned short \fB__vu16\fP"
 .PP
-Definiert in Zeile 58 der Datei pt100_types.h.
+Definiert in Zeile 58 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned long \fB__vu32\fP"
 .PP
-Definiert in Zeile 59 der Datei pt100_types.h.
+Definiert in Zeile 59 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned long long \fB__vu64\fP"
 .PP
-Definiert in Zeile 60 der Datei pt100_types.h.
+Definiert in Zeile 60 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned char \fB__vu8\fP"
 .PP
-Definiert in Zeile 57 der Datei pt100_types.h.
+Definiert in Zeile 57 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned short const \fB__vuc16\fP"
 .PP
-Definiert in Zeile 68 der Datei pt100_types.h.
+Definiert in Zeile 68 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned long const \fB__vuc32\fP"
 .PP
-Definiert in Zeile 69 der Datei pt100_types.h.
+Definiert in Zeile 69 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned long long const \fB__vuc64\fP"
 .PP
-Definiert in Zeile 70 der Datei pt100_types.h.
+Definiert in Zeile 70 der Datei pt100_types\&.h\&.
 .SS "typedef volatile unsigned char const \fB__vuc8\fP"
 .PP
-Definiert in Zeile 67 der Datei pt100_types.h.
+Definiert in Zeile 67 der Datei pt100_types\&.h\&.
 .SH "Dokumentation der Aufzählungstypen"
 .PP 
 .SS "enum \fBbool\fP"
 .PP
-Typdefinitionen TRUE / FALSE. 
+Typdefinitionen TRUE / FALSE\&. 
 .PP
 \fBAufzählungswerte: \fP
 .in +1c
@@ -303,7 +305,7 @@ Typdefinitionen TRUE / FALSE.
 \fB\fITRUE \fP\fP
 
 .PP
-Definiert in Zeile 98 der Datei pt100_types.h.
+Definiert in Zeile 99 der Datei pt100_types\&.h\&.
 .SH "Autor"
 .PP 
-Automatisch erzeugt von Doxygen für Pt100Library aus dem Quellcode.
+Automatisch erzeugt von Doxygen für PT100 Library aus dem Quellcode\&.

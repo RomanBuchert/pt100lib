@@ -95,7 +95,9 @@ typedef volatile signed long long const __vsc64;
  * @enum bool
  * @brief Typdefinitionen TRUE / FALSE
  ******************************************************************************/
-typedef enum {FALSE = 0, TRUE = !FALSE} bool;
+#ifndef bool
+typedef enum {FALSE = 0, TRUE = 1} bool;
+#endif
 /******************************************************************************/
 
 #endif //__PT100_TYPES_H__

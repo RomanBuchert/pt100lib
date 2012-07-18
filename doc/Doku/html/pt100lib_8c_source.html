@@ -2,41 +2,58 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>Pt100Library: /home/rb/workspace/pt100lib/src/pt100lib.c Quellcode</title>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>PT100 Library: pt100lib.c Quellcode</title>
+
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript">
-$(document).ready(initResizable);
+  $(document).ready(initResizable);
 </script>
-<link href="doxygen.css" rel="stylesheet" type="text/css"/>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+
 </head>
-<body onload='searchBox.OnSelectItem(0);'>
-<!-- Erzeugt von Doxygen 1.7.3 -->
-<script type="text/javascript"><!--
-var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
---></script>
-<div id="top">
+<body>
+<div id="top"><!-- do not remove this div! -->
+
+
 <div id="titlearea">
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  
+  
   <td style="padding-left: 0.5em;">
-   <div id="projectname">Pt100Library</div>
+   <div id="projectname">PT100 Library
+   
+   </div>
+   <div id="projectbrief">eine kleine Bibliothek um Pt100-Werte zu wandeln</div>
   </td>
+  
+  
+  
  </tr>
  </tbody>
 </table>
 </div>
+
+<!-- Erzeugt von Doxygen 1.7.6.1 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Hauptseite</span></a></li>
       <li class="current"><a href="files.html"><span>Dateien</span></a></li>
-      <li id="searchli">
+      <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
           <img id="MSearchSelect" src="search/mag_sel.png"
@@ -76,8 +93,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<h1>/home/rb/workspace/pt100lib/src/pt100lib.c</h1>  </div>
-</div>
+<div class="title">pt100lib.c</div>  </div>
+</div><!--header-->
 <div class="contents">
 <a href="pt100lib_8c.html">gehe zur Dokumentation dieser Datei</a><div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 
 <a name="l00007"></a>00007 <span class="comment">/******************************************************************************/</span>
@@ -86,8 +103,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
 <a name="l00010"></a>00010 <span class="comment"> ******************************************************************************</span>
 <a name="l00011"></a>00011 <span class="comment"> * INCLUDE-Dateien</span>
 <a name="l00012"></a>00012 <span class="comment"> ******************************************************************************/</span>
-<a name="l00013"></a>00013 <span class="preprocessor">#include &lt;pt100lib.h&gt;</span>
-<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;pt100_table.h&gt;</span>
+<a name="l00013"></a>00013 <span class="preprocessor">#include &lt;<a class="code" href="pt100lib_8h.html" title="Bibiliothek mit PT100 Funktionen.">pt100lib.h</a>&gt;</span>
+<a name="l00014"></a>00014 <span class="preprocessor">#include &lt;<a class="code" href="pt100__table_8h.html" title="Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten.">pt100_table.h</a>&gt;</span>
 <a name="l00015"></a>00015 <span class="comment">/******************************************************************************/</span>
 <a name="l00016"></a>00016 
 <a name="l00023"></a><a class="code" href="pt100lib_8c.html#a49de64016a5145d95be6830e2240d6bb">00023</a> <a class="code" href="pt100__types_8h.html#ab4a3e130664d6751b5fd947f9b7382e0">__s32</a> <a class="code" href="pt100lib_8h.html#a49de64016a5145d95be6830e2240d6bb" title="Wandelt einen PT100-Widerstandswert in eine Temperatur um.">pt100_R2T</a>(<a class="code" href="pt100__types_8h.html#a13a2835755bfba96b1790ff492741141">__u32</a> u32Widerstand)
@@ -110,14 +127,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
 <a name="l00040"></a>00040   <span class="keywordflow">for</span>(u16WidCntr = 0; u32Widerstand &gt; <a class="code" href="pt100__table_8h.html#afbf775603ef1f6f0ef7d4a0af6a490c0" title="Tabelle mit PT100-Widerstandswerten von [-200 ... +850]°C in 1K-Schritten.">pt100_table</a>[u16WidCntr]; u16WidCntr++);
 <a name="l00041"></a>00041 
 <a name="l00042"></a>00042   <span class="comment">// Bereichsprüfung unten</span>
-<a name="l00043"></a>00043   <span class="keywordflow">if</span> (!u16WidCntr)
+<a name="l00043"></a>00043   <span class="keywordflow">if</span> (u16WidCntr == 0)
 <a name="l00044"></a>00044   {
 <a name="l00045"></a>00045     u32Widerstand = <a class="code" href="pt100__table_8h.html#a58cacf232e018f6c32af1f496a7a9aa0" title="Minimaler Widerstandswert in mOhm.">R_MIN</a>;
 <a name="l00046"></a>00046     u16WidCntr++;
 <a name="l00047"></a>00047   }
 <a name="l00048"></a>00048 
 <a name="l00049"></a>00049   <span class="comment">// Bereichsprüfung oben</span>
-<a name="l00050"></a>00050   <span class="keywordflow">if</span> (u16WidCntr &gt; <a class="code" href="pt100__table_8h.html#a44d864c7ff8bf7f56435a1226c9e8a99" title="Maximaler Widerstandswert in mOhm.">R_MAX</a>)
+<a name="l00050"></a>00050   <span class="keywordflow">if</span> (u16WidCntr &gt; <a class="code" href="pt100__table_8h.html#a26db5af8ea96c4eb44a373ca5c41f494" title="Maximaler Index der PT100-Tabelle.">INDEX_MAX</a>)
 <a name="l00051"></a>00051   {
 <a name="l00052"></a>00052     u32Widerstand = <a class="code" href="pt100__table_8h.html#a44d864c7ff8bf7f56435a1226c9e8a99" title="Maximaler Widerstandswert in mOhm.">R_MAX</a>;
 <a name="l00053"></a>00053     u16WidCntr = <a class="code" href="pt100__table_8h.html#a26db5af8ea96c4eb44a373ca5c41f494" title="Maximaler Index der PT100-Tabelle.">INDEX_MAX</a> + 1;
@@ -178,17 +195,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
 <a name="l00162"></a>00162 
 <a name="l00169"></a>00169 <span class="comment">/******************************************************************************/</span>
 <a name="l00170"></a>00170 
-</pre></div></div>
+</pre></div></div><!-- contents -->
 </div>
-  <div id="nav-path" class="navpath">
-    <ul>
-      <li class="navelem"><a class="el" href="pt100lib_8c.html">pt100lib.c</a>      </li>
-      <li class="footer">Erzeugt am Mon Jul 2 2012 14:05:27 für Pt100Library von&#160;
-<a href="http://www.doxygen.org/index.html">
-<img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.3 </li>
-    </ul>
-  </div>
-<!--- window showing the filter options -->
+<!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
@@ -197,10 +206,20 @@ var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
-<iframe src="" frameborder="0" 
+<iframe src="javascript:void(0)" frameborder="0" 
         name="MSearchResults" id="MSearchResults">
 </iframe>
 </div>
+
+  <div id="nav-path" class="navpath">
+    <ul>
+      <li class="navelem"><a class="el" href="pt100lib_8c.html">pt100lib.c</a>      </li>
+
+    <li class="footer">Erzeugt am Mit Jul 18 2012 11:43:43 für PT100 Library von
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
+   </ul>
+ </div>
 
 
 </body>

@@ -1,17 +1,17 @@
-.TH "/home/rb/workspace/pt100lib/src/pt100lib.c" 3 "Mon Jul 2 2012" "Pt100Library" \" -*- nroff -*-
+.TH "pt100lib.c" 3 "Mit Jul 18 2012" "PT100 Library" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
-/home/rb/workspace/pt100lib/src/pt100lib.c \- 
+pt100lib.c \- 
 .PP
-Bibiliothek mit PT100 Funktionen.  
+Bibiliothek mit PT100 Funktionen\&.  
 
 .SH SYNOPSIS
 .br
 .PP
-\fC#include <pt100lib.h>\fP
+\fC#include <pt100lib\&.h>\fP
 .br
-\fC#include <pt100_table.h>\fP
+\fC#include <pt100_table\&.h>\fP
 .br
 
 .SS "Funktionen"
@@ -20,15 +20,15 @@ Bibiliothek mit PT100 Funktionen.
 .ti -1c
 .RI "\fB__s32\fP \fBpt100_R2T\fP (\fB__u32\fP u32Widerstand)"
 .br
-.RI "\fIWandelt einen PT100-Widerstandswert in eine Temperatur um. \fP"
+.RI "\fIWandelt einen PT100-Widerstandswert in eine Temperatur um\&. \fP"
 .ti -1c
 .RI "\fB__u32\fP \fBpt100_T2R\fP (\fB__s32\fP s32Temperatur)"
 .br
-.RI "\fIWandelt eine Temperatur in einen Pt100 Widerstandswert. \fP"
+.RI "\fIWandelt eine Temperatur in einen Pt100 Widerstandswert\&. \fP"
 .in -1c
 .SH "Ausführliche Beschreibung"
 .PP 
-Bibiliothek mit PT100 Funktionen. 
+Bibiliothek mit PT100 Funktionen\&. 
 
 \fBAutor:\fP
 .RS 4
@@ -37,12 +37,12 @@ Roman Buchert (roman.buchert@googlemail.com)
 .PP
 
 .PP
-Definiert in Datei \fBpt100lib.c\fP.
+Definiert in Datei \fBpt100lib\&.c\fP\&.
 .SH "Dokumentation der Funktionen"
 .PP 
-.SS "\fB__s32\fP pt100_R2T (\fB__u32\fPu32Widerstand)"
+.SS "\fB__s32\fP \fBpt100_R2T\fP (\fB__u32\fPu32Widerstand)"
 .PP
-Wandelt einen PT100-Widerstandswert in eine Temperatur um. \fBParameter:\fP
+Wandelt einen PT100-Widerstandswert in eine Temperatur um\&. \fBParameter:\fP
 .RS 4
 \fIu32Widerstand\fP Widerstand in mOhm 
 .RE
@@ -51,8 +51,6 @@ Wandelt einen PT100-Widerstandswert in eine Temperatur um. \fBParameter:\fP
 .RS 4
 Temperatur in °mC 
 .RE
-.PP
-
 .PP
 Temperatur berechnen \[ T = T1 + \frac{(T2-T1)*(R-R1)}{(R2-R1)} \] (T2 -T1) x (R - R1) 
 .br
@@ -75,14 +73,14 @@ R : gemessener Widerstand
  R2 : Widerstandstabellenwert über gemessenem Widerstand 
 .br
 .PP
-(Quelle: Elektrische Temperaturmessung (M. Nau / jumo))
+(Quelle: Elektrische Temperaturmessung (M\&. Nau / jumo))
 .PP
-Definiert in Zeile 23 der Datei pt100lib.c.
+Definiert in Zeile 23 der Datei pt100lib\&.c\&.
 .PP
-Benutzt INDEX_MAX, INDEX_ZERO, pt100_table, R_MAX, R_MIN und T_DIFF.
-.SS "\fB__u32\fP pt100_T2R (\fB__s32\fPs32Temperatur)"
+Benutzt INDEX_MAX, INDEX_ZERO, pt100_table, R_MAX, R_MIN und T_DIFF\&.
+.SS "\fB__u32\fP \fBpt100_T2R\fP (\fB__s32\fPs32Temperatur)"
 .PP
-Wandelt eine Temperatur in einen Pt100 Widerstandswert. \fBParameter:\fP
+Wandelt eine Temperatur in einen Pt100 Widerstandswert\&. \fBParameter:\fP
 .RS 4
 \fIs32Temperatur\fP Temperatur in m°C 
 .RE
@@ -91,8 +89,6 @@ Wandelt eine Temperatur in einen Pt100 Widerstandswert. \fBParameter:\fP
 .RS 4
 Widerstand in mOhm 
 .RE
-.PP
-
 .PP
 Widerstand berechnen \[ R = R1 + \frac{(R2-R1)*(T-T1)}{(T2-T1)} \] (R2 -R1) x (T - T1) 
 .br
@@ -115,11 +111,11 @@ R : gemessener Widerstand
  R2 : Widerstandstabellenwert über gemessenem Widerstand 
 .br
 .PP
-(Quelle: Elektrische Temperaturmessung (M. Nau / jumo))
+(Quelle: Elektrische Temperaturmessung (M\&. Nau / jumo))
 .PP
-Definiert in Zeile 94 der Datei pt100lib.c.
+Definiert in Zeile 94 der Datei pt100lib\&.c\&.
 .PP
-Benutzt INDEX_MAX, pt100_table, T_DIFF, T_MAX und T_MIN.
+Benutzt INDEX_MAX, pt100_table, T_DIFF, T_MAX und T_MIN\&.
 .SH "Autor"
 .PP 
-Automatisch erzeugt von Doxygen für Pt100Library aus dem Quellcode.
+Automatisch erzeugt von Doxygen für PT100 Library aus dem Quellcode\&.

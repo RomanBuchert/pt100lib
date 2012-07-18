@@ -1,2 +1,5 @@
 <map id="G" name="G">
+<area shape="rect" id="node3" href="$pt100lib_8h.html" title="Bibiliothek mit PT100 Funktionen." alt="" coords="72,83,149,112"/>
+<area shape="rect" id="node9" href="$pt100__table_8h.html" title="Tabelle mit PT100&#45;Widerstandswerten von [&#45;200 ... +850]°C in 1K&#45;Schritten." alt="" coords="173,83,272,112"/>
+<area shape="rect" id="node5" href="$pt100__types_8h.html" title="Typdefinitionen der PT100&#45;Lib." alt="" coords="5,160,109,189"/>
 </map>
