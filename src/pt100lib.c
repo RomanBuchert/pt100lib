@@ -40,14 +40,14 @@ __s32 pt100_R2T(__u32 u32Widerstand)
   for(u16WidCntr = 0; u32Widerstand > pt100_table[u16WidCntr]; u16WidCntr++);
 
   // Bereichsprüfung unten
-  if (!u16WidCntr)
+  if (u16WidCntr == 0)
   {
     u32Widerstand = R_MIN;
     u16WidCntr++;
   }
 
   // Bereichsprüfung oben
-  if (u16WidCntr > R_MAX)
+  if (u16WidCntr > INDEX_MAX)
   {
     u32Widerstand = R_MAX;
     u16WidCntr = INDEX_MAX + 1;
